@@ -3,7 +3,7 @@ run-name: Validate g8 template
 on:
   push:
   pull_request:
-    types: [opened]
+    types: [opened, review_requested]
 
 jobs:
   validate-g8:
