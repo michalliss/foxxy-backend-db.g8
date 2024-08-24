@@ -21,7 +21,7 @@ object Steward extends ScalaModule {
   def ivyDeps = Agg(
     ivy"dev.zio::zio-test:2.1.8",
     ivy"dev.zio::zio-test-sbt:2.1.8",
-    ivy"dev.zio::zio-test-magnolia:2.1.8"
+    ivy"dev.zio::zio-test-magnolia:2.1.8",
     ivy"io.github.michalliss::foxxy-backend:0.0.4",
     ivy"io.github.michalliss::foxxy-repo:0.0.4",
     ivy"dev.zio::zio-logging:2.3.0",
