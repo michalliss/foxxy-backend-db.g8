@@ -6,7 +6,7 @@ on:
     types: [opened]
 
 jobs:
-  run-tests:
+  validate-g8:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo
