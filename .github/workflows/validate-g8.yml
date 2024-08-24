@@ -1,6 +1,10 @@
 name: validate-g8
 run-name: Validate g8 template
-on: [push]
+on:
+  push:
+  pull_request:
+    types: [opened]
+
 jobs:
   run-tests:
     runs-on: ubuntu-latest
