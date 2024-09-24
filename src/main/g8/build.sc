@@ -5,7 +5,7 @@ import com.goyeau.mill.scalafix.ScalafixModule
 import scalafmt._
 
 object config {
-  val scalaVersion = "3.5.0"
+  val scalaVersion = "3.5.1"
 }
 
 trait AppScalaModule extends ScalaModule with ScalafixModule with ScalafmtModule {
@@ -14,7 +14,7 @@ trait AppScalaModule extends ScalaModule with ScalafixModule with ScalafmtModule
 }
 
 object $name$ extends AppScalaModule {
-  def scalaVersion = "3.5.0"
+  def scalaVersion = "3.5.1"
   def ivyDeps      = Agg(
     ivy"io.github.michalliss::foxxy-backend:0.0.5",
     ivy"io.github.michalliss::foxxy-repo:0.0.5",
