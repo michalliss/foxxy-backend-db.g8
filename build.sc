@@ -17,7 +17,7 @@ object g8 extends G8Module {
 }
 
 object Steward extends ScalaModule {
-  def scalaVersion = "3.5.1"
+  def scalaVersion = "3.5.2"
   def ivyDeps = Agg(
     ivy"dev.zio::zio-logging:2.3.2",
     ivy"dev.zio::zio-logging-slf4j2-bridge:2.3.2",
